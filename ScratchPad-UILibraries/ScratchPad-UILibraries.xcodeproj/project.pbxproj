@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		020405802AA77222C49750A5 /* libPods-ScratchPad-UILibraries.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B1EA962FD039A725F04F1C /* libPods-ScratchPad-UILibraries.a */; };
 		143C01B81B072F9D00350DDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 143C01B71B072F9D00350DDC /* main.m */; };
 		143C01BB1B072F9D00350DDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 143C01BA1B072F9D00350DDC /* AppDelegate.m */; };
 		143C01C11B072F9D00350DDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 143C01BF1B072F9D00350DDC /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03B1EA962FD039A725F04F1C /* libPods-ScratchPad-UILibraries.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScratchPad-UILibraries.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		143C01B21B072F9D00350DDC /* ScratchPad-UILibraries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ScratchPad-UILibraries.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		143C01B61B072F9D00350DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		143C01B71B072F9D00350DDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -43,6 +45,8 @@
 		143C01DD1B07308000350DDC /* SRMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRMenuTableViewController.m; sourceTree = "<group>"; };
 		143C01DF1B0731C200350DDC /* SRButtonsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRButtonsTableViewController.h; sourceTree = "<group>"; };
 		143C01E01B0731C200350DDC /* SRButtonsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRButtonsTableViewController.m; sourceTree = "<group>"; };
+		452D136527D2665858650E4D /* Pods-ScratchPad-UILibraries.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScratchPad-UILibraries.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScratchPad-UILibraries/Pods-ScratchPad-UILibraries.debug.xcconfig"; sourceTree = "<group>"; };
+		69CD1FC45351D4895967FF20 /* Pods-ScratchPad-UILibraries.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScratchPad-UILibraries.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScratchPad-UILibraries/Pods-ScratchPad-UILibraries.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				020405802AA77222C49750A5 /* libPods-ScratchPad-UILibraries.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,12 +68,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CEF900E315798F3D8A209A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03B1EA962FD039A725F04F1C /* libPods-ScratchPad-UILibraries.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		143C01A91B072F9D00350DDC = {
 			isa = PBXGroup;
 			children = (
 				143C01B41B072F9D00350DDC /* ScratchPad-UILibraries */,
 				143C01CE1B072F9E00350DDC /* ScratchPad-UILibrariesTests */,
 				143C01B31B072F9D00350DDC /* Products */,
+				D768BEB36FC1C4D5349C2962 /* Pods */,
+				0CEF900E315798F3D8A209A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,9 +99,8 @@
 		143C01B41B072F9D00350DDC /* ScratchPad-UILibraries */ = {
 			isa = PBXGroup;
 			children = (
+				143C01E21B0739A700350DDC /* App Delegate */,
 				143C01DB1B07305000350DDC /* Buttons */,
-				143C01B91B072F9D00350DDC /* AppDelegate.h */,
-				143C01BA1B072F9D00350DDC /* AppDelegate.m */,
 				143C01B51B072F9D00350DDC /* Supporting Files */,
 			);
 			path = "ScratchPad-UILibraries";
@@ -132,6 +146,24 @@
 			name = Buttons;
 			sourceTree = "<group>";
 		};
+		143C01E21B0739A700350DDC /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				143C01B91B072F9D00350DDC /* AppDelegate.h */,
+				143C01BA1B072F9D00350DDC /* AppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		D768BEB36FC1C4D5349C2962 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				452D136527D2665858650E4D /* Pods-ScratchPad-UILibraries.debug.xcconfig */,
+				69CD1FC45351D4895967FF20 /* Pods-ScratchPad-UILibraries.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +171,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 143C01D51B072F9E00350DDC /* Build configuration list for PBXNativeTarget "ScratchPad-UILibraries" */;
 			buildPhases = (
+				1C0431B2A723530555302E51 /* Check Pods Manifest.lock */,
 				143C01AE1B072F9D00350DDC /* Sources */,
 				143C01AF1B072F9D00350DDC /* Frameworks */,
 				143C01B01B072F9D00350DDC /* Resources */,
+				27FE06FA5473B457D1587E7D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -226,6 +260,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C0431B2A723530555302E51 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		27FE06FA5473B457D1587E7D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScratchPad-UILibraries/Pods-ScratchPad-UILibraries-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		143C01AE1B072F9D00350DDC /* Sources */ = {
@@ -359,6 +426,7 @@
 		};
 		143C01D61B072F9E00350DDC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 452D136527D2665858650E4D /* Pods-ScratchPad-UILibraries.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ScratchPad-UILibraries/Info.plist";
@@ -369,6 +437,7 @@
 		};
 		143C01D71B072F9E00350DDC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69CD1FC45351D4895967FF20 /* Pods-ScratchPad-UILibraries.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ScratchPad-UILibraries/Info.plist";
@@ -430,6 +499,7 @@
 				143C01D71B072F9E00350DDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		143C01D81B072F9E00350DDC /* Build configuration list for PBXNativeTarget "ScratchPad-UILibrariesTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +508,7 @@
 				143C01DA1B072F9E00350DDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

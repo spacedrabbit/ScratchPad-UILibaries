@@ -3,6 +3,8 @@
 
 target 'ScratchPad-UILibraries' do
 
+pod 'VBFPopFlatButton'
+
 end
 
 target 'ScratchPad-UILibrariesTests' do
