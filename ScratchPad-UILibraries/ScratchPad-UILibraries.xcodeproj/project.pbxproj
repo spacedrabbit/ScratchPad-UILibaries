@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		143C01B81B072F9D00350DDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 143C01B71B072F9D00350DDC /* main.m */; };
+		143C01BB1B072F9D00350DDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 143C01BA1B072F9D00350DDC /* AppDelegate.m */; };
+		143C01C11B072F9D00350DDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 143C01BF1B072F9D00350DDC /* Main.storyboard */; };
+		143C01C31B072F9D00350DDC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 143C01C21B072F9D00350DDC /* Images.xcassets */; };
+		143C01C61B072F9D00350DDC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 143C01C41B072F9D00350DDC /* LaunchScreen.xib */; };
+		143C01D21B072F9E00350DDC /* ScratchPad_UILibrariesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 143C01D11B072F9E00350DDC /* ScratchPad_UILibrariesTests.m */; };
+		143C01DE1B07308000350DDC /* SRMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143C01DD1B07308000350DDC /* SRMenuTableViewController.m */; };
+		143C01E11B0731C200350DDC /* SRButtonsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143C01E01B0731C200350DDC /* SRButtonsTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		143C01CC1B072F9E00350DDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 143C01AA1B072F9D00350DDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 143C01B11B072F9D00350DDC;
+			remoteInfo = "ScratchPad-UILibraries";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		143C01B21B072F9D00350DDC /* ScratchPad-UILibraries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ScratchPad-UILibraries.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		143C01B61B072F9D00350DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		143C01B71B072F9D00350DDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		143C01B91B072F9D00350DDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		143C01BA1B072F9D00350DDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		143C01C01B072F9D00350DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		143C01C21B072F9D00350DDC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		143C01C51B072F9D00350DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		143C01CB1B072F9E00350DDC /* ScratchPad-UILibrariesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ScratchPad-UILibrariesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		143C01D01B072F9E00350DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		143C01D11B072F9E00350DDC /* ScratchPad_UILibrariesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScratchPad_UILibrariesTests.m; sourceTree = "<group>"; };
+		143C01DC1B07308000350DDC /* SRMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRMenuTableViewController.h; sourceTree = "<group>"; };
+		143C01DD1B07308000350DDC /* SRMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRMenuTableViewController.m; sourceTree = "<group>"; };
+		143C01DF1B0731C200350DDC /* SRButtonsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRButtonsTableViewController.h; sourceTree = "<group>"; };
+		143C01E01B0731C200350DDC /* SRButtonsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRButtonsTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		143C01AF1B072F9D00350DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		143C01C81B072F9E00350DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		143C01A91B072F9D00350DDC = {
+			isa = PBXGroup;
+			children = (
+				143C01B41B072F9D00350DDC /* ScratchPad-UILibraries */,
+				143C01CE1B072F9E00350DDC /* ScratchPad-UILibrariesTests */,
+				143C01B31B072F9D00350DDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		143C01B31B072F9D00350DDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				143C01B21B072F9D00350DDC /* ScratchPad-UILibraries.app */,
+				143C01CB1B072F9E00350DDC /* ScratchPad-UILibrariesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		143C01B41B072F9D00350DDC /* ScratchPad-UILibraries */ = {
+			isa = PBXGroup;
+			children = (
+				143C01DB1B07305000350DDC /* Buttons */,
+				143C01B91B072F9D00350DDC /* AppDelegate.h */,
+				143C01BA1B072F9D00350DDC /* AppDelegate.m */,
+				143C01B51B072F9D00350DDC /* Supporting Files */,
+			);
+			path = "ScratchPad-UILibraries";
+			sourceTree = "<group>";
+		};
+		143C01B51B072F9D00350DDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				143C01BF1B072F9D00350DDC /* Main.storyboard */,
+				143C01C21B072F9D00350DDC /* Images.xcassets */,
+				143C01C41B072F9D00350DDC /* LaunchScreen.xib */,
+				143C01B61B072F9D00350DDC /* Info.plist */,
+				143C01B71B072F9D00350DDC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		143C01CE1B072F9E00350DDC /* ScratchPad-UILibrariesTests */ = {
+			isa = PBXGroup;
+			children = (
+				143C01D11B072F9E00350DDC /* ScratchPad_UILibrariesTests.m */,
+				143C01CF1B072F9E00350DDC /* Supporting Files */,
+			);
+			path = "ScratchPad-UILibrariesTests";
+			sourceTree = "<group>";
+		};
+		143C01CF1B072F9E00350DDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				143C01D01B072F9E00350DDC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		143C01DB1B07305000350DDC /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				143C01DC1B07308000350DDC /* SRMenuTableViewController.h */,
+				143C01DD1B07308000350DDC /* SRMenuTableViewController.m */,
+				143C01DF1B0731C200350DDC /* SRButtonsTableViewController.h */,
+				143C01E01B0731C200350DDC /* SRButtonsTableViewController.m */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		143C01B11B072F9D00350DDC /* ScratchPad-UILibraries */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 143C01D51B072F9E00350DDC /* Build configuration list for PBXNativeTarget "ScratchPad-UILibraries" */;
+			buildPhases = (
+				143C01AE1B072F9D00350DDC /* Sources */,
+				143C01AF1B072F9D00350DDC /* Frameworks */,
+				143C01B01B072F9D00350DDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ScratchPad-UILibraries";
+			productName = "ScratchPad-UILibraries";
+			productReference = 143C01B21B072F9D00350DDC /* ScratchPad-UILibraries.app */;
+			productType = "com.apple.product-type.application";
+		};
+		143C01CA1B072F9E00350DDC /* ScratchPad-UILibrariesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 143C01D81B072F9E00350DDC /* Build configuration list for PBXNativeTarget "ScratchPad-UILibrariesTests" */;
+			buildPhases = (
+				143C01C71B072F9E00350DDC /* Sources */,
+				143C01C81B072F9E00350DDC /* Frameworks */,
+				143C01C91B072F9E00350DDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				143C01CD1B072F9E00350DDC /* PBXTargetDependency */,
+			);
+			name = "ScratchPad-UILibrariesTests";
+			productName = "ScratchPad-UILibrariesTests";
+			productReference = 143C01CB1B072F9E00350DDC /* ScratchPad-UILibrariesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		143C01AA1B072F9D00350DDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Louis Tur";
+				TargetAttributes = {
+					143C01B11B072F9D00350DDC = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					143C01CA1B072F9E00350DDC = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 143C01B11B072F9D00350DDC;
+					};
+				};
+			};
+			buildConfigurationList = 143C01AD1B072F9D00350DDC /* Build configuration list for PBXProject "ScratchPad-UILibraries" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 143C01A91B072F9D00350DDC;
+			productRefGroup = 143C01B31B072F9D00350DDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				143C01B11B072F9D00350DDC /* ScratchPad-UILibraries */,
+				143C01CA1B072F9E00350DDC /* ScratchPad-UILibrariesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		143C01B01B072F9D00350DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143C01C11B072F9D00350DDC /* Main.storyboard in Resources */,
+				143C01C61B072F9D00350DDC /* LaunchScreen.xib in Resources */,
+				143C01C31B072F9D00350DDC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		143C01C91B072F9E00350DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		143C01AE1B072F9D00350DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143C01E11B0731C200350DDC /* SRButtonsTableViewController.m in Sources */,
+				143C01DE1B07308000350DDC /* SRMenuTableViewController.m in Sources */,
+				143C01BB1B072F9D00350DDC /* AppDelegate.m in Sources */,
+				143C01B81B072F9D00350DDC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		143C01C71B072F9E00350DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143C01D21B072F9E00350DDC /* ScratchPad_UILibrariesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		143C01CD1B072F9E00350DDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 143C01B11B072F9D00350DDC /* ScratchPad-UILibraries */;
+			targetProxy = 143C01CC1B072F9E00350DDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		143C01BF1B072F9D00350DDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				143C01C01B072F9D00350DDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		143C01C41B072F9D00350DDC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				143C01C51B072F9D00350DDC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		143C01D31B072F9E00350DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		143C01D41B072F9E00350DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		143C01D61B072F9E00350DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ScratchPad-UILibraries/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		143C01D71B072F9E00350DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ScratchPad-UILibraries/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		143C01D91B072F9E00350DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ScratchPad-UILibrariesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScratchPad-UILibraries.app/ScratchPad-UILibraries";
+			};
+			name = Debug;
+		};
+		143C01DA1B072F9E00350DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ScratchPad-UILibrariesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScratchPad-UILibraries.app/ScratchPad-UILibraries";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		143C01AD1B072F9D00350DDC /* Build configuration list for PBXProject "ScratchPad-UILibraries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				143C01D31B072F9E00350DDC /* Debug */,
+				143C01D41B072F9E00350DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		143C01D51B072F9E00350DDC /* Build configuration list for PBXNativeTarget "ScratchPad-UILibraries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				143C01D61B072F9E00350DDC /* Debug */,
+				143C01D71B072F9E00350DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		143C01D81B072F9E00350DDC /* Build configuration list for PBXNativeTarget "ScratchPad-UILibrariesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				143C01D91B072F9E00350DDC /* Debug */,
+				143C01DA1B072F9E00350DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 143C01AA1B072F9D00350DDC /* Project object */;
+}
