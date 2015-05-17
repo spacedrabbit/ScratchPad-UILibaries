@@ -8,11 +8,13 @@
 
 #import "SRMenuTableViewController.h"
 #import "SRButtonsTableViewController.h"
+#import "SRPOPTableViewController.h"
 
 static NSString * const SRStandardCell = @"cell";
 
 typedef NS_ENUM(NSInteger, SRMenuOptions){
     SRMenuOptionButtons = 0,
+    SRMenuOptionsPOPDemo =1,
 };
 
 @interface SRMenuTableViewController ()
@@ -26,7 +28,7 @@ typedef NS_ENUM(NSInteger, SRMenuOptions){
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.UIOptions = @[@"Buttons"];
+    self.UIOptions = @[@"Buttons", @"POP Animations"];
 
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:SRStandardCell];
 }
@@ -61,6 +63,11 @@ typedef NS_ENUM(NSInteger, SRMenuOptions){
         case SRMenuOptionButtons:{
             SRButtonsTableViewController *buttonsViewController = [[SRButtonsTableViewController alloc] init];
             [self.navigationController pushViewController:buttonsViewController animated:YES];
+            break;
+        }
+        case SRMenuOptionsPOPDemo:{
+            SRPOPTableViewController *popVieController = [[SRPOPTableViewController alloc] init];
+            [self.navigationController pushViewController:popVieController animated:YES];
             break;
         }
         default:

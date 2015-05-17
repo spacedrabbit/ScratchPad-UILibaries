@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		020405802AA77222C49750A5 /* libPods-ScratchPad-UILibraries.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B1EA962FD039A725F04F1C /* libPods-ScratchPad-UILibraries.a */; };
+		143628621B08306A007DBEBE /* SRPOPTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143628611B08306A007DBEBE /* SRPOPTableViewController.m */; };
 		143C01B81B072F9D00350DDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 143C01B71B072F9D00350DDC /* main.m */; };
 		143C01BB1B072F9D00350DDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 143C01BA1B072F9D00350DDC /* AppDelegate.m */; };
 		143C01C11B072F9D00350DDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 143C01BF1B072F9D00350DDC /* Main.storyboard */; };
@@ -30,6 +31,8 @@
 
 /* Begin PBXFileReference section */
 		03B1EA962FD039A725F04F1C /* libPods-ScratchPad-UILibraries.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScratchPad-UILibraries.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		143628601B08306A007DBEBE /* SRPOPTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRPOPTableViewController.h; sourceTree = "<group>"; };
+		143628611B08306A007DBEBE /* SRPOPTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRPOPTableViewController.m; sourceTree = "<group>"; };
 		143C01B21B072F9D00350DDC /* ScratchPad-UILibraries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ScratchPad-UILibraries.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		143C01B61B072F9D00350DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		143C01B71B072F9D00350DDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -140,6 +143,8 @@
 			children = (
 				143C01DC1B07308000350DDC /* SRMenuTableViewController.h */,
 				143C01DD1B07308000350DDC /* SRMenuTableViewController.m */,
+				143628601B08306A007DBEBE /* SRPOPTableViewController.h */,
+				143628611B08306A007DBEBE /* SRPOPTableViewController.m */,
 				143C01DF1B0731C200350DDC /* SRButtonsTableViewController.h */,
 				143C01E01B0731C200350DDC /* SRButtonsTableViewController.m */,
 			);
@@ -301,6 +306,7 @@
 			files = (
 				143C01E11B0731C200350DDC /* SRButtonsTableViewController.m in Sources */,
 				143C01DE1B07308000350DDC /* SRMenuTableViewController.m in Sources */,
+				143628621B08306A007DBEBE /* SRPOPTableViewController.m in Sources */,
 				143C01BB1B072F9D00350DDC /* AppDelegate.m in Sources */,
 				143C01B81B072F9D00350DDC /* main.m in Sources */,
 			);
